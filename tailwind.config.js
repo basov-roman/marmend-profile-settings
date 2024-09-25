@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        m: "375px",
+      },
       colors: {
         main: {
           primary: "#2D68F8",
@@ -44,6 +47,15 @@ export default {
           light5: "#FEEBEB",
           light6: "#FEF3F3",
         },
+      },
+      fontFamily: {
+        inter: ['"Inter"', "sans-serif"],
+      },
+      backgroundImage: {
+        "custom-bg": "url('/src/assets/background/main-background.png')",
+      },
+      boxShadow: {
+        custom: "0px 1px 3px rgba(166, 175, 195, 0.4)",
       },
     },
   },

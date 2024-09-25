@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts"],"version":"5.6.2"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/customselect/customselect.tsx","./src/components/profilesettings/profilesettings.tsx","./src/components/profilesettingsform/profilesettingsform.tsx","./src/components/profilesettingsphoto/profilesettingsphoto.tsx","./src/components/settingsbutton/settingsbutton.tsx"],"version":"5.6.2"}
